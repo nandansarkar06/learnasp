@@ -132,3 +132,4 @@
 /Users/nandansarkar/Project/asp.net/NzWalk/NzWalk/obj/Debug/net8.0/NzWalk.pdb
 /Users/nandansarkar/Project/asp.net/NzWalk/NzWalk/obj/Debug/net8.0/NzWalk.genruntimeconfig.cache
 /Users/nandansarkar/Project/asp.net/NzWalk/NzWalk/obj/Debug/net8.0/ref/NzWalk.dll
+/Users/nandansarkar/Project/asp.net/NzWalk/NzWalk/obj/Debug/net8.0/NzWalk.sourcelink.json

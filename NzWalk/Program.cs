@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using NzWalk.Data;
+using NzWalk.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ builder.Services.AddControllers();
 var connectionString = builder.Configuration.GetConnectionString("NZWalksConnectionString");
 
 builder.Services.AddDbContext<NzWalksDbContext>(options => options.UseMySql(connectionString, serverVersion: ServerVersion.AutoDetect(connectionString)));
+builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>();
 
 var app = builder.Build();
 
